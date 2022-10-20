@@ -392,13 +392,6 @@ textarea {
   text-decoration: none;
 }
 
-.footer_logo {
-  height: 5rem;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-}
-
 .footer_copyright {
   font-size: 1.4rem;
   color: #aaa;

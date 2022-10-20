@@ -8,7 +8,7 @@ const nav = document.querySelector(".nav");
 const navLinks = document.querySelector(".nav_links");
 const header = document.querySelector(".header");
 const toggleBtn = document.querySelector(".nav_toggle");
-const close = document.querySelector(".cki");
+const close = document.querySelector(".close");
 const btnScrollTo = document.querySelector(".btn-scroll-to");
 const allSections = document.querySelectorAll(".section");
 
@@ -52,6 +52,7 @@ toggleBtn.addEventListener("click", function () {
     document.querySelector("html").style.overflow = "visible";
   } else {
     navLinks.classList.add("nav_open");
+
     document.querySelector("html").style.overflow = "hidden";
   }
 });
