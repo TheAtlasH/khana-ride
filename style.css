@@ -675,4 +675,13 @@ textarea {
   html {
     font-size: 20%;
   }
+
+  .nav_logo {
+    width: 30%;
+  }
+
+  .nav_toggle {
+    margin-right: 10%;
+    width: 10%;
+  }
 }
